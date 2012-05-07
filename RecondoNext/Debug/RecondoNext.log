@@ -1,0 +1,17 @@
+﻿Build started 2012-04-29 12:33:52.
+     1>Project "D:\Projects\C++\Recondo\RecondoNext\RecondoNext.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\RecondoNext.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         RecondoNext.vcxproj -> D:\Projects\C++\Recondo\Debug\RecondoNext.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\RecondoNext.unsuccessfulbuild".
+         Touching "Debug\RecondoNext.lastbuildstate".
+     1>Done Building Project "D:\Projects\C++\Recondo\RecondoNext\RecondoNext.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.10
