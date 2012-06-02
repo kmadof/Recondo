@@ -1,7 +1,9 @@
-﻿Build started 2012-04-30 18:38:54.
-     1>Project "D:\Projects\C++\Recondo\Recondo.Tests\Recondo.Tests.vcxproj" on node 2 (build target(s)).
-     1>InitializeBuildStatus:
-         Touching "Debug\Recondo.Tests.unsuccessfulbuild".
+﻿Build started 2012-05-28 22:38:08.
+     1>Project "D:\Projects\C++\Recondo\Recondo.Tests\Recondo.Tests.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Recondo.Tests.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\Recondo.Tests.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"c:\CppUnit\cppunit-1.12.1\lib\\" /I"c:\CppUnit\cppunit-1.12.1\include\\" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt program.cpp SuperMemo2Test.cpp
          SuperMemo2Test.cpp
@@ -16,8 +18,8 @@
        FinalizeBuildStatus:
          Deleting file "Debug\Recondo.Tests.unsuccessfulbuild".
          Touching "Debug\Recondo.Tests.lastbuildstate".
-     1>Done Building Project "D:\Projects\C++\Recondo\Recondo.Tests\Recondo.Tests.vcxproj" (build target(s)).
+     1>Done Building Project "D:\Projects\C++\Recondo\Recondo.Tests\Recondo.Tests.vcxproj" (rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:03.68
+Time Elapsed 00:00:08.62

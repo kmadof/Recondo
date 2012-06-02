@@ -8,7 +8,7 @@ namespace SuperMemoStrategy
 	class SuperMemo2 : public SuperMemo
 	{
 		public:
-			virtual int CountInterval(int numberOfRepetition, double previousInterval);
+			virtual int CountInterval(int numberOfRepetition, int previousInterval, double eFactor);
 			virtual double CountEFactor(int qualityResponse, double previousEFactor);
 	};
 }

@@ -36,15 +36,26 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(CPPUNIT_INCLUDES);$(BOOST_ROOT);$(IncludePath)</IncludePath>
+    <LibraryPath>$(CPPUNIT_LIB);$(LibraryPath)</LibraryPath>
+    <SourcePath>$(CPPUNIT_ROOT);$(SourcePath)</SourcePath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <WarningLevel>Level4</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <AdditionalIncludeDirectories>$(CPPUNIT_LIB);$(CPPUNIT_INCLUDES);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(CPPUNIT_LIB);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cppunit.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -61,12 +72,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CException.h" />
+    <ClInclude Include="FileLoader.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="ItemTest.h" />
     <ClInclude Include="SuperMemo.h" />
     <ClInclude Include="SuperMemo2.h" />
+    <ClInclude Include="SuperMemo2Test.h" />
+    <ClInclude Include="SuperMemo4.h" />
+    <ClInclude Include="TxtLoader.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="TxtLoader.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="ItemTest.cpp" />
     <ClCompile Include="program.cpp" />
     <ClCompile Include="SuperMemo2.cpp" />
+    <ClCompile Include="SuperMemo2Test.cpp" />
+    <ClCompile Include="SuperMemo4.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -10,5 +10,11 @@ public:
 
 	void testSimple();
 
+	void CountIntervalOne();
+
+	void CountIntervalTwo();
+
+	void CountIntervalThree();
+
 	static CppUnit::Test* suite();
 };
