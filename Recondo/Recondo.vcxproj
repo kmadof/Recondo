@@ -72,6 +72,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AppSettings.h" />
     <ClInclude Include="CException.h" />
     <ClInclude Include="FileLoader.h" />
     <ClInclude Include="Item.h" />
@@ -83,6 +84,7 @@
     <ClInclude Include="TxtLoader.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AppSettings.cpp" />
     <ClCompile Include="TxtLoader.cpp" />
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="ItemTest.cpp" />

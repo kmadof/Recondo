@@ -6,12 +6,12 @@
 #include "TxtLoader.h"
 #include <algorithm>
 
-//#define TEST 1
+#define TEST 1
 
 using namespace std;
 using namespace SuperMemoStrategy;
 
-int main() 
+int main(int argc, char *argv[]) 
 {
 
 	#if TEST
@@ -39,5 +39,4 @@ int main()
 		
 	#endif
 
-	getchar();
 }
