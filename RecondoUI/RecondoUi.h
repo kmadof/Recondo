@@ -18,22 +18,19 @@ class RecondoUI : public QMainWindow, private Ui::RecondoUIClass, public Recondo
 		RecondoUI(QWidget *parent = 0, Qt::WFlags flags = 0);
 		~RecondoUI();
 
-		CoursePtr GetNewCourseItem();
+		void SetCurrentCourseName(std::string courseName);
 
 	private:
 		Ui::RecondoUIClass ui;
 		CoursesUI* cForm;
 		RecondoModel* _model;
 		RecondoPresenter* _presenter;
-		//Ui::CoursesForm* coForm;
-		//Ui::Dialog* dialog;
-		std::string GetFileName(const std::string& path);
-		CoursePtr _newCourse;
+
 
 	private slots:
 		void doThing(void);
 		void showCourseForm(void);
-		void addCourse(void);
+
 };
 
 #endif // RECONDOUI_H

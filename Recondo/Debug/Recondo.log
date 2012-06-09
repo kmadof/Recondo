@@ -1,29 +1,9 @@
-﻿Build started 2012-06-03 05:05:53.
-     1>Project "D:\Projects\C++\Recondo\Recondo\Recondo.vcxproj" on node 2 (build target(s)).
-     1>InitializeBuildStatus:
-         Creating "Debug\Recondo.unsuccessfulbuild" because "AlwaysCreate" was specified.
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"c:\CppUnit\cppunit-1.12.1\lib\\" /I"c:\CppUnit\cppunit-1.12.1\include\\" /ZI /nologo /W4 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AppSettings.cpp
-         Skipping... (no relevant changes detected)
-         AppSettings.cpp
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\C++\Recondo\Debug\Recondo.exe" /NOLOGO /LIBPATH:"c:\CppUnit\cppunit-1.12.1\lib\\" cppunit.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Recondo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Projects\C++\Recondo\Debug\Recondo.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projects\C++\Recondo\Debug\Recondo.lib" /MACHINE:X86 Debug\AppSettings.obj
-         Debug\TxtLoader.obj
-         Debug\Item.obj
-         Debug\ItemTest.obj
-         Debug\program.obj
-         Debug\SuperMemo2.obj
-         Debug\SuperMemo2Test.obj
-         Debug\SuperMemo4.obj
-         LINK : D:\Projects\C++\Recondo\Debug\Recondo.exe not found or not built by the last incremental link; performing full link
-         Recondo.vcxproj -> D:\Projects\C++\Recondo\Debug\Recondo.exe
-       Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Projects\C++\Recondo\Debug\Recondo.exe;#1" /manifest Debug\Recondo.exe.intermediate.manifest
-       FinalizeBuildStatus:
-         Deleting file "Debug\Recondo.unsuccessfulbuild".
-         Touching "Debug\Recondo.lastbuildstate".
-     1>Done Building Project "D:\Projects\C++\Recondo\Recondo\Recondo.vcxproj" (build target(s)).
+﻿Build started 2012-06-09 21:21:39.
+     1>Project "D:\Projects\C++\Recondo\Recondo\Recondo.vcxproj" on node 2 (clean target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Recondo.lastbuildstate".
+     1>Done Building Project "D:\Projects\C++\Recondo\Recondo\Recondo.vcxproj" (clean target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:04.36
+Time Elapsed 00:00:00.04

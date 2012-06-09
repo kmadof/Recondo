@@ -1,7 +1,7 @@
 #include "RecondoPresenter.h"
 #include "CourseItem.h"
 
-void RecondoPresenter::AddCourse()
+void RecondoPresenter::SetCurrentCourseNameOnView()
 {
-	_model->AddCourse(*(_view->GetNewCourseItem()).get());
+	_view->SetCurrentCourseName(_model->GetCurrentCourse()->GetCourseName());
 }

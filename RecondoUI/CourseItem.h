@@ -10,6 +10,7 @@
 class CourseItem
 {
 public:
+	CourseItem() : _courseName(""), _path("") {};
 	CourseItem(std::string courseName, std::string path) : _courseName(courseName), _path(path) {};
 	CourseItem(const CourseItem& courseItem) : _courseName(courseItem.GetCourseName()), _path(courseItem.GetPath()) {};
 	~CourseItem() {}

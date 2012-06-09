@@ -2,13 +2,22 @@
 #include <string>
 //#include "CourseItem.h"
 
-void CoursesPresenter::PutCurrentLection()
+void CoursesPresenter::GetSelectedCourse()
 {
-	std::string temp = _view->GetCurrentLection();
-	_model->SetCurrentLection(temp);
+	_model->SetCurrentCourse(_view->GetSelectedCourse());
 }
 
 const Courses CoursesPresenter::GetCoursesItem()
 {
 	return _model->GetCoursesItem();
+}
+
+bool CoursesPresenter::AddCourse()
+{
+	return _model->AddCourse(*(_view->GetNewCourseItem()).get());
+}
+
+bool CoursesPresenter::RemoveCourse()
+{
+	return _model->RemoveCourse(_view->GetSelectedCourse());
 }

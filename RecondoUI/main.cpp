@@ -11,12 +11,5 @@ int main(int argc, char *argv[])
 	RecondoUI w;
 	w.show();
 
-	//XmlSettingsLayer xmlLayer;
-	//Courses courses;
-	//courses.push_back(CoursePtr(new CourseItem("siema", "siema")));
-	//courses.push_back(CoursePtr(new CourseItem("siema", "siema")));
-	//courses.push_back(CoursePtr(new CourseItem("siema", "siema")));
-	////xmlLayer.SaveCourses(courses);
-	//xmlLayer.LoadCourses();
 	return a.exec();
 }

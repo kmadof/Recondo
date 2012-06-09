@@ -54,7 +54,7 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(CPPUNIT_LIB);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(CPPUNIT_LIB);$(BOOST_ROOT)\stage\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>cppunit.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -74,6 +74,7 @@
   <ItemGroup>
     <ClInclude Include="AppSettings.h" />
     <ClInclude Include="CException.h" />
+    <ClInclude Include="Course.h" />
     <ClInclude Include="FileLoader.h" />
     <ClInclude Include="Item.h" />
     <ClInclude Include="ItemTest.h" />

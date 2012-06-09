@@ -9,8 +9,7 @@
 class RecondoView
 {
 public:
-	//virtual std::string GetCurrentLection() = 0;
-	virtual CoursePtr GetNewCourseItem() = 0;
+	virtual void SetCurrentCourseName(std::string courseName) = 0;
 };
 
 #endif

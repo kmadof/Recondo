@@ -3,6 +3,16 @@
 
 using namespace SuperMemoStrategy;
 
+Item::Item()
+{
+	_question = "";
+	_answer = "";
+	_numberOfRepetitions = 0;
+	_interval = 1;
+	_eFactor = 2.5;
+	_qualityResponse = 0;
+}
+
 Item::Item(std::string question, std::string answer)
 {
 	_question = question;

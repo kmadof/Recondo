@@ -17,17 +17,22 @@ class CoursesUI : public QDialog, private Ui::CoursesDialog, public CoursesView
 	public:
 		CoursesUI(RecondoModel* model, QWidget *parent = 0, Qt::WFlags flags = 0);
 		~CoursesUI();
-		std::string GetCurrentLection();
+
+		std::string GetSelectedCourse();
+		CoursePtr GetNewCourseItem();
 
 	private:
 		Ui::CoursesDialog ui;
 		CoursesPresenter* _presenter;
+		CoursePtr _newCourse;
 
-		//Ui::CoursesForm* coForm;
-		//Ui::Dialog* dialog;
+		void FillList();
+		std::string GetFileName(const std::string& path);
 
 	private slots:
 		void selectedCourse(void);
+		void removeCourse(void);
+		void addCourse(void);
 };
 
 #endif

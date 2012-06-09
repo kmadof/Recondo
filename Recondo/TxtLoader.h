@@ -10,6 +10,9 @@ namespace SuperMemoStrategy
 	class TxtLoader : FileLoader
 	{
 		public:
+			TxtLoader() {}
+			virtual ~TxtLoader() {}
+
 			virtual Items Load(std::string file);
 		private:
 			std::string GetSimpleString(std::string text);

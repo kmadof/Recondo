@@ -12,9 +12,10 @@ class CoursesPresenter
 public:
 	CoursesPresenter(CoursesView* view, RecondoModel* model) : _view(view), _model(model) {};
 
-	void PutCurrentLection();
+	void GetSelectedCourse();
 	const Courses GetCoursesItem();
-	//void AddCourse(const CourseItem& courseItem);
+	bool AddCourse();
+	bool RemoveCourse();
 private:
 	CoursesView* _view;
 	RecondoModel* _model;

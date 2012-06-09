@@ -42,29 +42,3 @@ std::string TxtLoader::GetSimpleString(std::string text)
 	else
 		return "";
 }
-
-	//// check file can be opened
- //  std::ifstream infile(fileName);
- //  if (!infile) {
- //     std::cerr << "Failed to read " << fileName << std::endl;
-	//  return NULL;
- //     //return EXIT_FAILURE;
- //  }
-
- //  std::string input = "";
-
- //  // read-ahead
- //  //std::getline(std::cin, input);
-
- //  while (input!="q" && input!="quit" && input!="exit") {
- //     //system("cls");
-
- //     // print contents of file by streaming its read buffer
- //     std::cout << infile.rdbuf();
-
- //     // read file again
- //     infile = std::ifstream(fileName);
-
- //     // finally, read again to match read-ahead
- //     std::getline(std::cin, input);
- //  }

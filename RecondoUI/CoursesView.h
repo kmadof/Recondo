@@ -8,7 +8,8 @@
 class CoursesView
 {
 public:
-	virtual std::string GetCurrentLection() = 0;
+	virtual std::string GetSelectedCourse() = 0;
+	virtual CoursePtr GetNewCourseItem() = 0;
 private:
 
 };

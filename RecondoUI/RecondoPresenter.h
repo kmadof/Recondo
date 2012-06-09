@@ -11,7 +11,8 @@ class RecondoPresenter
 	public:
 		RecondoPresenter(RecondoView* view, RecondoModel* model) : _view(view), _model(model) {};
 
-		void AddCourse();
+		bool AddCourse();
+		void SetCurrentCourseNameOnView();
 
 	private:
 		RecondoView* _view;
