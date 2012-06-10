@@ -30,15 +30,33 @@ public:
 	Course LoadCourse(std::string path);
 	CoursePtr FindCourse(std::string name);
 
+	void SetLastRun();
+	void GetItemsToHramonogram();
+	void GetItemsToNewMaterials();
+	void AddItemToRepeats(ItemPtr item);
+	int GetNumberOfItemHarmonogram() const;
+	int GetNumberOfItemNewMaterials() const;
+	int GetNumberOfItemRepeats() const;
+	ItemPtr GetNextItem();
+	ItemPtr GetCurrentItem() const { return _currentItem; }
+
 private:
 	CourseItem _currentCourse;
 	Courses _courses;
+	
 	Course _course;
+	Items _harmonogram;
+	Items _newMaterials;
+	Items _repeats;
+	ItemPtr _currentItem;
+
 	XmlSettingsLayer* xml;
 
 	const std::string CURRENT_COURSE_PATH;
+	const int NUMBER_OF_NEW_ITEMS;
 
 	void CreateCurrentCourseFile();
+
 };
 
 //struct CompareCourseAndName : public std::binary_function<CoursePtr,std::string,bool> {

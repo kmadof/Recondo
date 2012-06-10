@@ -25,7 +25,6 @@ namespace SuperMemoStrategy
 			ar &  make_nvp ("Answer", _answer);
 			ar &  make_nvp ("NumberOfRepetitions", _numberOfRepetitions);
 			ar &  make_nvp ("Interval", _interval);
-			ar &  make_nvp ("Question", _question);
 			ar &  make_nvp ("eFactor", _eFactor);
 			ar &  make_nvp ("QualityResponse", _qualityResponse);
 			ar &  make_nvp ("Date", _date);
@@ -45,6 +44,7 @@ namespace SuperMemoStrategy
 			void			SetEFactor(double eFactor) { _eFactor = eFactor; }
 			const unsigned	GetQualityResponse() const { return _qualityResponse; }
 			void			SetQualityResponse(unsigned qualityResponse);
+			gregorian_date  GetDate() const { return _date; }
 		private :
 			string _question;
 			string _answer;

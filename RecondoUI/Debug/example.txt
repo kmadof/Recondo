@@ -1,0 +1,538 @@
+
+Q: dupa
+A: jol
+
+Q: dupa2
+A: jol3
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa2
+A: jol3
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa2
+A: jol3
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa2
+A: jol3
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa2
+A: jol3
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol3
+Q: dupa
+A: jol
+
+Q: dupa2
+A: jol3
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa2
+A: jol3
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa2
+A: jol3
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa2
+A: jol3
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol3
+Q: dupa
+A: jol
+
+Q: dupa2
+A: jol3
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol3
+Q: dupa
+A: jol
+
+Q: dupa2
+A: jol3
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa2
+A: jol3
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol3
+Q: dupa
+A: jol
+
+Q: dupa2
+A: jol3
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa2
+A: jol3
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa2
+A: jol3
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol3
+Q: dupa
+A: jol
+
+Q: dupa2
+A: jol3
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa2
+A: jol3
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa2
+A: jol3
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol
+
+Q: dupa
+A: jol

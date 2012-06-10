@@ -1,0 +1,13 @@
+<Recondo>
+    <CurrentCurses>
+        <CurrentCourse courseName="example.txt">D:/Projects/C++/Recondo/Win32/Debug/currentCourse.cur</CurrentCourse>
+    </CurrentCurses>
+    <Courses>
+        <Course courseName="example5.txt">D:/Projects/C++/Recondo/RecondoUI/Debug/example5.txt</Course>
+        <Course courseName="example4.txt">D:/Projects/C++/Recondo/RecondoUI/Debug/example4.txt</Course>
+        <Course courseName="example2.txt">D:/Projects/C++/Recondo/RecondoUI/Debug/example2.txt</Course>
+        <Course courseName="example3.txt">D:/Projects/C++/Recondo/RecondoUI/Debug/example3.txt</Course>
+        <Course courseName="example2.txt">D:/Projects/C++/Recondo/RecondoUI/Debug/example2.txt</Course>
+        <Course courseName="example.txt">D:/Projects/C++/Recondo/RecondoUI/Debug/example.txt</Course>
+    </Courses>
+</Recondo>

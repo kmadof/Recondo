@@ -13,10 +13,15 @@ class RecondoPresenter
 
 		bool AddCourse();
 		void SetCurrentCourseNameOnView();
+		void InitializeLection();
+		void SetQuestionOnView();
+		void SetAnswerOnView();
 
 	private:
 		RecondoView* _view;
 		RecondoModel* _model;
+
+		void UpdateInfoItems();
 };
 
 #endif

@@ -49,7 +49,10 @@
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
-      <widget class="QPushButton" name="btnQualityOne">
+      <widget class="QPushButton" name="btnQualityZero">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
          <horstretch>0</horstretch>
@@ -62,7 +65,10 @@
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="btnQualityZero">
+      <widget class="QPushButton" name="btnQualityOne">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
          <horstretch>0</horstretch>
@@ -76,6 +82,9 @@
      </item>
      <item>
       <widget class="QPushButton" name="btnQualityTwo">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
          <horstretch>0</horstretch>
@@ -89,6 +98,9 @@
      </item>
      <item>
       <widget class="QPushButton" name="btnQualityThree">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
          <horstretch>0</horstretch>
@@ -102,6 +114,9 @@
      </item>
      <item>
       <widget class="QPushButton" name="btnQualityFour">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
          <horstretch>0</horstretch>
@@ -116,7 +131,7 @@
      <item>
       <widget class="QPushButton" name="btnQualityFive">
        <property name="enabled">
-        <bool>true</bool>
+        <bool>false</bool>
        </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
@@ -158,6 +173,9 @@
     </property>
    </widget>
    <widget class="QPushButton" name="btnShowAnswer">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -171,6 +189,9 @@
     </property>
    </widget>
    <widget class="QPushButton" name="btnNextQuestion">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -227,7 +248,7 @@
        </widget>
       </item>
       <item row="0" column="1">
-       <widget class="QLabel" name="lbRepeatNumber">
+       <widget class="QLabel" name="lbHarmonogramNumber">
         <property name="text">
          <string>0</string>
         </property>
@@ -241,7 +262,7 @@
        </widget>
       </item>
       <item row="2" column="1">
-       <widget class="QLabel" name="lbPreserveationNumber">
+       <widget class="QLabel" name="lbRepeatNumber">
         <property name="text">
          <string>0</string>
         </property>
@@ -314,6 +335,7 @@
      <string>Użytkownik</string>
     </property>
     <addaction name="actionStartLection"/>
+    <addaction name="actionEndLection"/>
    </widget>
    <widget class="QMenu" name="menuHelp">
     <property name="title">
@@ -367,6 +389,14 @@
   <action name="actionReadCourse">
    <property name="text">
     <string>Wczytaj kurs</string>
+   </property>
+  </action>
+  <action name="actionEndLection">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Zakończ lekcję</string>
    </property>
   </action>
  </widget>

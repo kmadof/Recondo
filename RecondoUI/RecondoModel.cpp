@@ -14,7 +14,7 @@
 
 using namespace SuperMemoStrategy;
 
-RecondoModel::RecondoModel() : CURRENT_COURSE_PATH("currentCourse.cur")
+RecondoModel::RecondoModel() : CURRENT_COURSE_PATH("currentCourse.cur"), NUMBER_OF_NEW_ITEMS(30)
 {
 	xml = new XmlSettingsLayer();
 	_courses = xml->LoadCourses();
@@ -23,7 +23,7 @@ RecondoModel::RecondoModel() : CURRENT_COURSE_PATH("currentCourse.cur")
 	if(_currentCourse.GetCourseName() != "")
 		_course = LoadCourse(_currentCourse.GetPath());
 	else
-		_courses = Courses();
+		_course = Course();
 }
 
 RecondoModel::~RecondoModel()
@@ -130,3 +130,80 @@ Course RecondoModel::LoadCourse(std::string path)
   ia >> BOOST_SERIALIZATION_NVP(course);
   return course;
 } 
+
+void RecondoModel::SetLastRun()
+{
+	_course.SetLastRunDate();
+}
+
+void RecondoModel::GetItemsToHramonogram()
+{
+	Items temp = _course.GetItems();
+	gregorian_date now = _course.GetLatRunDate();
+	gregorian_date itemDate;
+	for(Items::iterator it = temp.begin(); it != temp.end(); ++it)
+	{
+		itemDate = it->get()->GetDate();
+		if(!itemDate.is_not_a_date() && itemDate < now)
+		{
+			_harmonogram.push_back(*it);
+		}
+	}
+}
+
+void RecondoModel::GetItemsToNewMaterials()
+{
+	Items temp = _course.GetItems();
+	int numberOfItems = 0;
+	for(Items::iterator it = temp.begin(); it != temp.end(); ++it)
+	{
+		if(it->get()->GetNumberOfRepetitions() == 0)
+		{
+			_newMaterials.push_back(*it);
+			++numberOfItems;
+			if(numberOfItems == NUMBER_OF_NEW_ITEMS)
+				break;
+		}
+	}
+}
+
+void RecondoModel::AddItemToRepeats(ItemPtr item)
+{
+	_repeats.push_back(item);
+}
+
+int RecondoModel::GetNumberOfItemHarmonogram() const
+{
+	return _harmonogram.size();
+}
+
+int RecondoModel::GetNumberOfItemNewMaterials() const
+{
+	return _newMaterials.size();
+}
+
+int RecondoModel::GetNumberOfItemRepeats() const
+{
+	return _repeats.size();
+}
+
+ItemPtr RecondoModel::GetNextItem()
+{
+	if( _harmonogram.size() > 0)
+	{
+		_currentItem = _harmonogram.front();
+		_harmonogram.pop_front();
+	}
+	else if( _newMaterials.size() > 0)
+	{
+		_currentItem = _newMaterials.front();
+		_newMaterials.pop_front();
+	}
+	else if( _harmonogram.size() > 0)
+	{
+		_currentItem = _repeats.front();
+		_repeats.pop_front();
+	}
+	
+	return _currentItem;
+}
