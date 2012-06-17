@@ -1,1 +1,93 @@
-dupa
+
+Q: Albania	
+A: Tirana
+
+Q: Algieria	
+A: Algier
+
+Q: Andora	
+A: Andora
+
+Q: Angola	
+A: Luanda
+
+Q: Antigua i Barbuda	
+A: Saint John's
+
+Q: Arabia Saudyjska	
+A: Rijad
+
+Q: Argentyna	
+A: Buenos Aires
+
+Q: Armenia	
+A: Erywañ
+
+Q: Australia	
+A: Canberra
+
+Q: Austria	
+A: Wiedeñ
+
+Q: Azerbejd¿an	
+A: Baku
+
+Q: Bahamy	
+A: Nassau
+
+Q: Bahrajn	
+A: Manama
+
+Q: Bangladesz	
+A: Dhaka
+
+Q: Barbados	
+A: Bridgetown
+
+Q: Belgia	
+A: Bruksela
+
+Q: Belize	
+A: Belmopan
+
+Q: Benin	
+A: Porto-Novo, Kotonu
+
+Q: Bhutan	
+A: Thimphu
+
+Q: Bia³oruœ	
+A: Miñsk
+
+Q: Birma	
+A: Naypyidaw
+
+Q: Boliwia	
+A: La Paz, Sucre
+
+Q: Boœnia i Hercegowina	
+A: Sarajewo
+
+Q: Botswana	
+A: Gaborone
+
+Q: Brazylia	
+A: Brasília
+
+Q: Brunei	
+A: Bandar Seri Begawan
+
+Q: Bu³garia	
+A: Sofia
+
+Q: Burkina Faso	
+A: Wagadugu
+
+Q: Burundi	
+A: Bu¿umbura
+
+Q: Afganistan	
+A: Kabul
+
+Q: qw22
+A: 213221

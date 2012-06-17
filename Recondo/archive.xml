@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="9">
+<course class_id="0" tracking_level="0" version="0">
+	<LastRun class_id="1" tracking_level="0" version="0">
+		<date>20120609</date>
+	</LastRun>
+	<Items class_id="2" tracking_level="0" version="0">
+		<count>2</count>
+		<item_version>1</item_version>
+		<item class_id="3" tracking_level="0" version="1">
+			<px class_id="4" tracking_level="1" version="0" object_id="_0">
+				<Question>dupa</Question>
+				<Answer>jol</Answer>
+				<NumberOfRepetitions>0</NumberOfRepetitions>
+				<Interval>1</Interval>
+				<Question>dupa</Question>
+				<eFactor>2.5</eFactor>
+				<QualityResponse>0</QualityResponse>
+				<Date>
+					<date>not-a-date-time</date>
+				</Date>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="4" object_id="_1">
+				<Question>dupa2</Question>
+				<Answer>jol3</Answer>
+				<NumberOfRepetitions>0</NumberOfRepetitions>
+				<Interval>1</Interval>
+				<Question>dupa2</Question>
+				<eFactor>2.5</eFactor>
+				<QualityResponse>0</QualityResponse>
+				<Date>
+					<date>not-a-date-time</date>
+				</Date>
+			</px>
+		</item>
+	</Items>
+</course>
+</boost_serialization>
+

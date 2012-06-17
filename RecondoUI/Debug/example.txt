@@ -1,9 +1,9 @@
 
-Q: dupa
-A: jol
+Q: Afganistan
+A: Kabul
 
-Q: dupa2
-A: jol3
+Q: Albania
+A: Tirana
 
 Q: dupa
 A: jol

@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="9">
+<_course class_id="0" tracking_level="0" version="0">
+	<LastRun class_id="1" tracking_level="0" version="0">
+		<date>20120610</date>
+	</LastRun>
+	<Items class_id="2" tracking_level="0" version="0">
+		<count>30</count>
+		<item_version>1</item_version>
+		<item class_id="3" tracking_level="0" version="1">
+			<px class_id="4" tracking_level="1" version="0" object_id="_0">
+				<Question>Afganistan	</Question>
+				<Answer>Kabul</Answer>
+				<NumberOfRepetitions>1</NumberOfRepetitions>
+				<Interval>1</Interval>
+				<eFactor>2.6000000000000001</eFactor>
+				<QualityResponse>5</QualityResponse>
+				<Date>
+					<date>20120611</date>
+				</Date>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="4" object_id="_1">
+				<Question>Albania	</Question>
+				<Answer>Tirana</Answer>
+				<NumberOfRepetitions>1</NumberOfRepetitions>
+				<Interval>1</Interval>
+				<eFactor>2.6000000000000001</eFactor>
+				<QualityResponse>5</QualityResponse>
+				<Date>
+					<date>20120611</date>
+				</Date>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="4" object_id="_2">
+				<Question>Algieria	</Question>
+				<Answer>Algier</Answer>
+				<NumberOfRepetitions>1</NumberOfRepetitions>
+				<Interval>1</Interval>
+				<eFactor>2.6000000000000001</eFactor>
+				<QualityResponse>5</QualityResponse>
+				<Date>
+					<date>20120611</date>
+				</Date>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="4" object_id="_3">
+				<Question>Andora	</Question>
+				<Answer>Andora</Answer>
+				<NumberOfRepetitions>1</NumberOfRepetitions>
+				<Interval>1</Interval>
+				<eFactor>2.6000000000000001</eFactor>
+				<QualityResponse>5</QualityResponse>
+				<Date>
+					<date>20120611</date>
+				</Date>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="4" object_id="_4">
+				<Question>Angola	</Question>
+				<Answer>Luanda</Answer>
+				<NumberOfRepetitions>1</NumberOfRepetitions>
+				<Interval>1</Interval>
+				<eFactor>2.6000000000000001</eFactor>
+				<QualityResponse>5</QualityResponse>
+				<Date>
+					<date>20120611</date>
+				</Date>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="4" object_id="_5">
+				<Question>Antigua i Barbuda	</Question>
+				<Answer>Saint John&apos;s</Answer>
+				<NumberOfRepetitions>1</NumberOfRepetitions>
+				<Interval>1</Interval>
+				<eFactor>2.6000000000000001</eFactor>
+				<QualityResponse>5</QualityResponse>
+				<Date>
+					<date>20120611</date>
+				</Date>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="4" object_id="_6">
+				<Question>Arabia Saudyjska	</Question>
+				<Answer>Rijad</Answer>
+				<NumberOfRepetitions>1</NumberOfRepetitions>
+				<Interval>1</Interval>
+				<eFactor>2.6000000000000001</eFactor>
+				<QualityResponse>5</QualityResponse>
+				<Date>
+					<date>20120611</date>
+				</Date>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="4" object_id="_7">
+				<Question>Argentyna	</Question>
+				<Answer>Buenos Aires</Answer>
+				<NumberOfRepetitions>1</NumberOfRepetitions>
+				<Interval>1</Interval>
+				<eFactor>2.6000000000000001</eFactor>
+				<QualityResponse>5</QualityResponse>
+				<Date>
+					<date>20120611</date>
+				</Date>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="4" object_id="_8">
+				<Question>Armenia	</Question>
+				<Answer>Erywañ</Answer>
+				<NumberOfRepetitions>1</NumberOfRepetitions>
+				<Interval>1</Interval>
+				<eFactor>2.6000000000000001</eFactor>
+				<QualityResponse>5</QualityResponse>
+				<Date>
+					<date>20120611</date>
+				</Date>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="4" object_id="_9">
+				<Question>Australia	</Question>
+				<Answer>Canberra</Answer>
+				<NumberOfRepetitions>1</NumberOfRepetitions>
+				<Interval>1</Interval>
+				<eFactor>2.6000000000000001</eFactor>
+				<QualityResponse>5</QualityResponse>
+				<Date>
+					<date>20120611</date>
+				</Date>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="4" object_id="_10">
+				<Question>Austria	</Question>
+				<Answer>Wiedeñ</Answer>
+				<NumberOfRepetitions>1</NumberOfRepetitions>
+				<Interval>1</Interval>
+				<eFactor>2.5</eFactor>
+				<QualityResponse>4</QualityResponse>
+				<Date>
+					<date>20120611</date>
+				</Date>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="4" object_id="_11">
+				<Question>Azerbejd¿an	</Question>
+				<Answer>Baku</Answer>
+				<NumberOfRepetitions>1</NumberOfRepetitions>
+				<Interval>1</Interval>
+				<eFactor>2.6000000000000001</eFactor>
+				<QualityResponse>5</QualityResponse>
+				<Date>
+					<date>20120611</date>
+				</Date>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="4" object_id="_12">
+				<Question>Bahamy	</Question>
+				<Answer>Nassau</Answer>
+				<NumberOfRepetitions>1</NumberOfRepetitions>
+				<Interval>1</Interval>
+				<eFactor>2.6000000000000001</eFactor>
+				<QualityResponse>5</QualityResponse>
+				<Date>
+					<date>20120611</date>
+				</Date>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="4" object_id="_13">
+				<Question>Bahrajn	</Question>
+				<Answer>Manama</Answer>
+				<NumberOfRepetitions>1</NumberOfRepetitions>
+				<Interval>1</Interval>
+				<eFactor>2.6000000000000001</eFactor>
+				<QualityResponse>5</QualityResponse>
+				<Date>
+					<date>20120611</date>
+				</Date>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="4" object_id="_14">
+				<Question>Bangladesz	</Question>
+				<Answer>Dhaka</Answer>
+				<NumberOfRepetitions>1</NumberOfRepetitions>
+				<Interval>1</Interval>
+				<eFactor>2.6000000000000001</eFactor>
+				<QualityResponse>5</QualityResponse>
+				<Date>
+					<date>20120611</date>
+				</Date>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="4" object_id="_15">
+				<Question>Barbados	</Question>
+				<Answer>Bridgetown</Answer>
+				<NumberOfRepetitions>1</NumberOfRepetitions>
+				<Interval>1</Interval>
+				<eFactor>2.6000000000000001</eFactor>
+				<QualityResponse>5</QualityResponse>
+				<Date>
+					<date>20120611</date>
+				</Date>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="4" object_id="_16">
+				<Question>Belgia	</Question>
+				<Answer>Bruksela</Answer>
+				<NumberOfRepetitions>1</NumberOfRepetitions>
+				<Interval>1</Interval>
+				<eFactor>2.6000000000000001</eFactor>
+				<QualityResponse>5</QualityResponse>
+				<Date>
+					<date>20120611</date>
+				</Date>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="4" object_id="_17">
+				<Question>Belize	</Question>
+				<Answer>Belmopan</Answer>
+				<NumberOfRepetitions>1</NumberOfRepetitions>
+				<Interval>1</Interval>
+				<eFactor>2.6000000000000001</eFactor>
+				<QualityResponse>5</QualityResponse>
+				<Date>
+					<date>20120611</date>
+				</Date>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="4" object_id="_18">
+				<Question>Benin	</Question>
+				<Answer>Porto-Novo, Kotonu</Answer>
+				<NumberOfRepetitions>1</NumberOfRepetitions>
+				<Interval>1</Interval>
+				<eFactor>2.6000000000000001</eFactor>
+				<QualityResponse>5</QualityResponse>
+				<Date>
+					<date>20120611</date>
+				</Date>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="4" object_id="_19">
+				<Question>Bhutan	</Question>
+				<Answer>Thimphu</Answer>
+				<NumberOfRepetitions>1</NumberOfRepetitions>
+				<Interval>1</Interval>
+				<eFactor>2.6000000000000001</eFactor>
+				<QualityResponse>5</QualityResponse>
+				<Date>
+					<date>20120611</date>
+				</Date>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="4" object_id="_20">
+				<Question>Bia³oruœ	</Question>
+				<Answer>Miñsk</Answer>
+				<NumberOfRepetitions>1</NumberOfRepetitions>
+				<Interval>1</Interval>
+				<eFactor>2.6000000000000001</eFactor>
+				<QualityResponse>5</QualityResponse>
+				<Date>
+					<date>20120611</date>
+				</Date>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="4" object_id="_21">
+				<Question>Birma	</Question>
+				<Answer>Naypyidaw</Answer>
+				<NumberOfRepetitions>1</NumberOfRepetitions>
+				<Interval>1</Interval>
+				<eFactor>2.6000000000000001</eFactor>
+				<QualityResponse>5</QualityResponse>
+				<Date>
+					<date>20120611</date>
+				</Date>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="4" object_id="_22">
+				<Question>Boliwia	</Question>
+				<Answer>La Paz, Sucre</Answer>
+				<NumberOfRepetitions>1</NumberOfRepetitions>
+				<Interval>1</Interval>
+				<eFactor>2.6000000000000001</eFactor>
+				<QualityResponse>5</QualityResponse>
+				<Date>
+					<date>20120611</date>
+				</Date>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="4" object_id="_23">
+				<Question>Boœnia i Hercegowina	</Question>
+				<Answer>Sarajewo</Answer>
+				<NumberOfRepetitions>1</NumberOfRepetitions>
+				<Interval>1</Interval>
+				<eFactor>2.6000000000000001</eFactor>
+				<QualityResponse>5</QualityResponse>
+				<Date>
+					<date>20120611</date>
+				</Date>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="4" object_id="_24">
+				<Question>Botswana	</Question>
+				<Answer>Gaborone</Answer>
+				<NumberOfRepetitions>1</NumberOfRepetitions>
+				<Interval>1</Interval>
+				<eFactor>2.6000000000000001</eFactor>
+				<QualityResponse>5</QualityResponse>
+				<Date>
+					<date>20120611</date>
+				</Date>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="4" object_id="_25">
+				<Question>Brazylia	</Question>
+				<Answer>Brasília</Answer>
+				<NumberOfRepetitions>1</NumberOfRepetitions>
+				<Interval>1</Interval>
+				<eFactor>2.6000000000000001</eFactor>
+				<QualityResponse>5</QualityResponse>
+				<Date>
+					<date>20120611</date>
+				</Date>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="4" object_id="_26">
+				<Question>Brunei	</Question>
+				<Answer>Bandar Seri Begawan</Answer>
+				<NumberOfRepetitions>1</NumberOfRepetitions>
+				<Interval>1</Interval>
+				<eFactor>2.6000000000000001</eFactor>
+				<QualityResponse>5</QualityResponse>
+				<Date>
+					<date>20120611</date>
+				</Date>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="4" object_id="_27">
+				<Question>Bu³garia	</Question>
+				<Answer>Sofia</Answer>
+				<NumberOfRepetitions>1</NumberOfRepetitions>
+				<Interval>1</Interval>
+				<eFactor>2.6000000000000001</eFactor>
+				<QualityResponse>5</QualityResponse>
+				<Date>
+					<date>20120611</date>
+				</Date>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="4" object_id="_28">
+				<Question>Burkina Faso	</Question>
+				<Answer>Wagadugu</Answer>
+				<NumberOfRepetitions>1</NumberOfRepetitions>
+				<Interval>1</Interval>
+				<eFactor>2.6000000000000001</eFactor>
+				<QualityResponse>5</QualityResponse>
+				<Date>
+					<date>20120611</date>
+				</Date>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="4" object_id="_29">
+				<Question>Burundi	</Question>
+				<Answer>Bu¿umbura</Answer>
+				<NumberOfRepetitions>1</NumberOfRepetitions>
+				<Interval>1</Interval>
+				<eFactor>2.6000000000000001</eFactor>
+				<QualityResponse>5</QualityResponse>
+				<Date>
+					<date>20120611</date>
+				</Date>
+			</px>
+		</item>
+	</Items>
+</_course>
+</boost_serialization>
+
